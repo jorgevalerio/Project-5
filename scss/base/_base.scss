@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu');
+
+/*  Basic Layout  */
+
+body {
+	@extend %centered;
+	color: #797e84;
+	font-size: 16px;
+	margin: 0;
+	font-family: $mainstack;
+	line-height: 1.5;
+	
+	
+}
+
+img {
+    width: 100%;	
+}
+
+h1 {
+	font-size: 2rem;
+	@extend %sans;
+}
+h2 {
+	font-size: 1.8rem;
+	@extend %headercolor;
+	@extend %sans;
+}
+h3 {
+	font-size: 1.6rem;
+	@extend %headercolor;
+}
+h4 {
+	font-size: 1.4rem;
+	@extend %headercolor;
+}
+h5 {
+	font-size: 1.3rem;
+}
+h6 {
+	font-size: 1.2rem;
+}
+
+p  {
+	font-size: 1rem;	
+}
+
+
+.hidden {
+	@include mq(medium){
+
+		display: none;}
+
+}

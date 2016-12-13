@@ -1,0 +1,51 @@
+.footer-nav {
+	display: none;
+	
+	@include mq(medium){
+		display:inline-flex;
+	}
+}
+
+.footer-nav li {
+	@include mq(medium){
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+.footermenu {
+	display:  flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	ul {
+	
+	margin-top: 0;
+	font-weight: 600;
+	}
+	
+	li {
+	margin-left: 15px;
+	color: #4a4a4a;
+	}
+	
+	a {
+	@extend %nodecoration;
+	color: #4a4a4a;
+	font-family: $mainstack;
+	line-height: 1.5;
+		font-weight: 600;
+	
+	}
+}
+
+
+.footername {
+	color: #4a4a4a;
+	font-weight: 600;
+	font-size: 1.1rem;
+}

@@ -1,0 +1,42 @@
+
+
+.wrapper {
+	padding: 1em;
+}
+
+.container1 {
+	@include mq(medium){
+		
+    display: flex;
+	flex-direction: row-reverse;
+	text-align: left;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	}
+}
+
+.box{
+	@include mq(medium) {
+		width: 50%;
+	}
+	@include mq(large) {
+		width: 33%;
+	}
+}
+
+.box img {
+	@include mq(medium) {
+		width: 85%;
+	}
+	
+}
+
+.container2{
+	@include mq(medium) {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+	
+}
+

@@ -1,0 +1,22 @@
+
+
+//Media Queries MixIns
+
+@mixin mq($break) {
+	@if $break == "medium" {
+	@media (min-width: $breakpoint-medium) {
+	@content;
+		}
+	}
+
+	@else if &break == "large" {
+	 @media (min-width: $breakpoint-large){
+	@content;
+		}
+	}
+
+@else {
+	@error "No value found"
+}
+
+}

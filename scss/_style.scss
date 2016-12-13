@@ -1,0 +1,153 @@
+/*  Sass Document */
+
+
+	
+
+
+
+
+
+
+
+
+/* 768 px and above*/
+@media screen and (min-width:768px){
+
+
+
+.profilepic img {
+	width: 65%;
+	margin-left: 15px;
+}
+
+.nav-container {
+	flex-direction: column;		
+}
+	
+.container1 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: left;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+	
+.nav li {
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+}
+	
+.container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	
+.box {
+	width: 50%;
+}
+
+.box img {
+	width: 85%;
+}
+	
+.footer-nav {
+	display:inline-flex;
+}
+	
+.footer-nav li {
+		display: inline-block;
+}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1024px and above*/
+
+@media screen and (min-width:1024px){
+
+.hidden { 
+	display: none;
+}
+
+.profilepic img {
+		
+	width: 35%;
+	height: 35%;
+	margin-left: 15px;	
+}
+
+.nav-container {
+	
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 2rem;
+	margin-right: 2rem;		
+}
+	
+.container1 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: left;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+	
+.nav li {
+	
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+}
+	
+.container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	
+.box {
+	width: 33%;
+		
+	}
+.box img {
+	width: 85%;
+}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

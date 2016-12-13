@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Ubuntu');
+
+/*  Basic Layout  */
+
+body {
+	color: #797e83;
+	font-size: 16px;
+	margin: 0;
+	font-family: 'lato', 'Open Sans', sans-serif;
+	line-height: 1.5;
+	text-align: center;	
+}
+
+img {
+    width: 100%;	
+}
+
+h1 {
+	font-size: 2rem;
+	font-family:  sans-serif;
+}
+h2 {
+	font-size: 1.8rem;
+	color: #4a4a4a;
+	font-family: sans-serif;
+}
+h3 {
+	font-size: 1.6rem;
+	color: #4a4a4a;
+}
+h4 {
+	font-size: 1.4rem;color: #4a4a4a;
+}
+h5 {
+	font-size: 1.3rem;
+}
+h6 {
+	font-size: 1.2rem;
+}
+
+p  {
+	font-size: 1rem;	
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: column;	
+	align-items: center;  
+}
+
+.profilepic img {
+	width: 65%;;
+}
+	
+
+.nav li {
+	display: block;
+	padding: 5px 0px 5px 0px;
+}
+	
+.footer-nav {
+	display: none;
+}
+
+.wrapper {
+	padding: 1em;
+}
+
+.nav-container {
+	display: flex;
+	color: #4a4a4a;	
+}
+
+.nav {
+	padding: 0;
+}
+
+.nav li {
+	text-decoration:none;		
+}
+
+.nav a {
+	color: #4a4a4a;
+	font-family: 'lato', 'Open Sans', sans-serif;
+	line-height: 1.5;
+	text-decoration: none;
+	font-weight:600;
+}
+
+
+.footermenu a {
+	color: #4a4a4a;
+	font-family: 'lato', 'Open Sans', sans-serif;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+
+.footermenu {
+	display:  flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footermenu ul {
+	
+	margin-top: 0;
+	font-weight: 600;
+}
+
+.footermenu li {
+	margin-left: 15px;
+	color: #4a4a4a;
+}
+
+
+.footermenu a {
+	color: #4a4a4a;
+	font-weight: 600;
+}
+
+
+
+.footername {
+	color: #4a4a4a;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+
+/* 768 px and above*/
+@media screen and (min-width:768px){
+
+.hidden {
+	display: none;
+}
+
+.profilepic img {
+	width: 65%;
+	margin-left: 15px;
+}
+
+.nav-container {
+	flex-direction: column;		
+}
+	
+.container1 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: left;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+	
+.nav li {
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+}
+	
+.container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	
+.box {
+	width: 50%;
+}
+
+.box img {
+	width: 85%;
+}
+	
+.footer-nav {
+	display:inline-flex;
+}
+	
+.footer-nav li {
+		display: inline-block;
+}
+	
+
+}
+
+
+/* 1024px and above*/
+
+@media screen and (min-width:1024px){
+
+.hidden { 
+	display: none;
+}
+
+.profilepic img {
+		
+	width: 35%;
+	height: 35%;
+	margin-left: 15px;	
+}
+
+.nav-container {
+	
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 2rem;
+	margin-right: 2rem;		
+}
+	
+.container1 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: left;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+	
+.nav li {
+	
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+}
+	
+.container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	
+.box {
+	width: 33%;
+		
+	}
+.box img {
+	width: 85%;
+}
+	
+	
+}
+
+
+
+
+
+
+
+
