@@ -30,11 +30,7 @@ h6 {
   font-size: 1.2rem; }
 
 p {
-  font-size: 1rem; }
-
-@media (min-width: 768px) {
-  .hidden {
-    display: none; } }
+  font-size: font1; }
 
 .nav li, .nav a, .footermenu a {
   text-decoration: none; }
@@ -154,5 +150,9 @@ h1, h2 {
   color: #4a4a4a;
   font-weight: 600;
   font-size: 1.1rem; }
+
+@media (min-width: 768px) {
+  .hidden {
+    display: none; } }
 
 /*# sourceMappingURL=application.css.map */

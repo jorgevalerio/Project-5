@@ -6,8 +6,8 @@
 
 body {
 	@extend %centered;
-	color: #797e84;
-	font-size: 16px;
+	color:$primary-color;
+	font-size: $defaultfz;
 	margin: 0;
 	font-family: $mainstack;
 	line-height: 1.5;
@@ -20,37 +20,29 @@ img {
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: $font2x;
 	@extend %sans;
 }
 h2 {
-	font-size: 1.8rem;
+	font-size: $font1-8;
 	@extend %headercolor;
 	@extend %sans;
 }
 h3 {
-	font-size: 1.6rem;
+	font-size: $font1-6;
 	@extend %headercolor;
 }
 h4 {
-	font-size: 1.4rem;
+	font-size:$font1-4;
 	@extend %headercolor;
 }
 h5 {
-	font-size: 1.3rem;
+	font-size: $font1-3;
 }
 h6 {
-	font-size: 1.2rem;
+	font-size: $font1-2;
 }
 
 p  {
-	font-size: 1rem;	
-}
-
-
-.hidden {
-	@include mq(medium){
-
-		display: none;}
-
+	font-size: font1;	
 }

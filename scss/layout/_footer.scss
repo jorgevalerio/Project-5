@@ -30,22 +30,30 @@
 	
 	li {
 	margin-left: 15px;
-	color: #4a4a4a;
+	color: $hcolor;
 	}
 	
 	a {
 	@extend %nodecoration;
-	color: #4a4a4a;
+	color: $hcolor;
 	font-family: $mainstack;
 	line-height: 1.5;
-		font-weight: 600;
+	font-weight: 600;
 	
 	}
 }
 
 
 .footername {
-	color: #4a4a4a;
+	color: $hcolor;
 	font-weight: 600;
-	font-size: 1.1rem;
+	font-size: $font1-1;
+}
+
+
+.hidden {
+	@include mq(medium){
+
+		display: none;}
+
 }
